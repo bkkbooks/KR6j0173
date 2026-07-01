@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR6j0173/v1
+canonical_location: https://kanripo.org/bkk/KR6j0173/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大金色孔雀王呪經
+  identifiers:
+    alt_id:
+    - T19n0986
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T19/T19n0986.xml
+    old_id: T19n0986
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit3
+- short: 元
+  label: 元
+  source_xml_id: wit1
+- short: 明
+  label: 明
+  source_xml_id: wit2
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0173_000.yaml, hash: 'sha256:5886c99b7c22c47e3d935e387fcf328c7fb5ee921cea9ecc610beb655bca67d1'}
+  - {seq: 1, filename: KR6j0173_001.yaml, hash: 'sha256:fbe53e6a12bf8a1fd6a4abb4ca2a46b1256a78c0c5842f74dab32ad7dc51d168'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0173_001.markers.yaml, hash: 'sha256:c310c573144733e460cbf5febeb965c867594763aa670f6e8a69b0892dc79954'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0173_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1458
+  label: 大金色孔雀王呪經一卷
+  type: juan
+  level: 1
+hash: sha256:191ab77fa8511a92661818dd38d907385b223fe4c2d418fd2ae9cbbf1c5b9b8e
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
