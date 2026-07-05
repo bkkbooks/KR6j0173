@@ -28,9 +28,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0173_000.yaml, hash: 'sha256:5886c99b7c22c47e3d935e387fcf328c7fb5ee921cea9ecc610beb655bca67d1'}
-  - {seq: 1, filename: KR6j0173_001.yaml, hash: 'sha256:fbe53e6a12bf8a1fd6a4abb4ca2a46b1256a78c0c5842f74dab32ad7dc51d168'}
+  - {seq: 1, filename: KR6j0173_001.yaml, hash: 'sha256:8193e112d8892d3fc940b25a7391d4671b1b67fbe9d9d2a7f73935608b9c3882'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0173_001.markers.yaml, hash: 'sha256:c310c573144733e460cbf5febeb965c867594763aa670f6e8a69b0892dc79954'}
+  - {seq: 0, role: markers, filename: assets/KR6j0173_000.markers.yaml, hash: 'sha256:cac8c3f9d7c8c480286407f49312226d73a5a35e08da615a1c07de4ca39f505c'}
+  - {seq: 1, role: markers, filename: assets/KR6j0173_001.markers.yaml, hash: 'sha256:ba47442d3ea12ebb3814bae40d94c0c85eb0c204bd9fd0525c4156d217e7cb44'}
 table_of_contents:
 - ref:
     seq: 1
@@ -42,7 +43,4 @@ table_of_contents:
   label: 大金色孔雀王呪經一卷
   type: juan
   level: 1
-hash: sha256:191ab77fa8511a92661818dd38d907385b223fe4c2d418fd2ae9cbbf1c5b9b8e
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:739e58d8d883d4040657f8c106651e1cf1ad01d35e7535cae5b5499ef744793c
