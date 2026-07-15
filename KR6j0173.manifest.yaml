@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0173/v1
 canonical_location: https://kanripo.org/bkk/KR6j0173/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 大金色孔雀王呪經
   identifiers:
@@ -28,10 +28,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0173_000.yaml, hash: 'sha256:5886c99b7c22c47e3d935e387fcf328c7fb5ee921cea9ecc610beb655bca67d1'}
-  - {seq: 1, filename: KR6j0173_001.yaml, hash: 'sha256:8193e112d8892d3fc940b25a7391d4671b1b67fbe9d9d2a7f73935608b9c3882'}
+  - {seq: 1, filename: KR6j0173_001.yaml, hash: 'sha256:cceac1db171ce646a476f2a611924b77856164168b7ec0d958711400ff5bc5e0'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0173_000.markers.yaml, hash: 'sha256:cac8c3f9d7c8c480286407f49312226d73a5a35e08da615a1c07de4ca39f505c'}
-  - {seq: 1, role: markers, filename: assets/KR6j0173_001.markers.yaml, hash: 'sha256:ba47442d3ea12ebb3814bae40d94c0c85eb0c204bd9fd0525c4156d217e7cb44'}
+  - {seq: 1, role: markers, filename: assets/KR6j0173_001.markers.yaml, hash: 'sha256:a1b98f89b33b4b6decd333e591c1ea7395ff80f7da663df986cf94191a4725d7'}
 table_of_contents:
 - ref:
     seq: 1
@@ -43,4 +43,7 @@ table_of_contents:
   label: 大金色孔雀王呪經一卷
   type: juan
   level: 1
-hash: sha256:739e58d8d883d4040657f8c106651e1cf1ad01d35e7535cae5b5499ef744793c
+hash: sha256:347d9554b375e7c3ac9d7ce28ebee621e4b8090a0eff232f1532db9e5d4b8c2e
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
